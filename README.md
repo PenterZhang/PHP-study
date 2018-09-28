@@ -60,7 +60,7 @@ a repository for storing PHP learning progress
     myTest();
     echo $y; 
 ```
->在以上代码中echo $y; 的值为15， 可以引用到外部变量中的X，Y的值；
+> 在以上代码中echo $y; 的值为15， 可以引用到外部变量中的X，Y的值；
 
 ### PHP 同时在名为 $GLOBALS[index] 的数组中存储了所有的全局变量。下标存有变量名。这个数组在函数内也可以访问，并能够用于直接更新全局变量。
 ```
